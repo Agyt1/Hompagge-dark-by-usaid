@@ -140,12 +140,13 @@ footer {
 div.text-box-left {
     display: flex;
     flex-direction: column;
-   max-width: 266px;
+    max-width: 266px;
     height: 120px;
     gap: 20px;
     opacity: 0px;
 
 }
+
 @media (max-width: 768px) {
 
     .service-nav {
@@ -157,23 +158,36 @@ div.text-box-left {
         margin-top: 10px;
     }
 
-    .intro h1, .feature h2, .services h2, .features h1, .additional-feature h2 {
+    .intro h1,
+    .feature h2,
+    .services h2,
+    .features h1,
+    .additional-feature h2 {
         font-size: 1.2em;
     }
 
-    .feature, .services, .features, .additional-feature {
+    .feature,
+    .services,
+    .features,
+    .additional-feature {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .feature .text-box, .feature .image-box, .services .text-box, .service, .features .feature-text, .feature-box, .additional-feature .feature-info {
-      
+    .feature .text-box,
+    .feature .image-box,
+    .services .text-box,
+    .service,
+    .features .feature-text,
+    .feature-box,
+    .additional-feature .feature-info {
+
         text-align: center;
     }
 
     .features .feature-box img {
-        width:250px;
+        width: 250px;
         align-items: center;
     }
 
@@ -182,63 +196,116 @@ div.text-box-left {
         align-items: center;
     }
 
-    .feature-box, .service, .feature-description {
-        margin-left: 20px;
+    .feature-box,
+    .service,
+    .feature-description {
+        margin-left: 30px;
         align-items: center;
     }
-    .image-box img{
+
+    .image-box img {
         max-width: 250px;
         align-items: center;
     }
+
+    .text-box {
+        margin-left: 30px;
+    }
+
 }
+
 @media (max-width: 320px) {
 
     .service-nav {
         align-items: center;
         margin-bottom: 10px;
     }
-    .header{
-       
+
+    .header {
+
         display: none;
     }
-    div.purple-nav{
+
+    div.purple-nav {
         display: none;
     }
-    .button{
-       display: none;
+
+    .button {
+        display: none;
+    }
+
+    .feature-box,
+    .service,
+    .feature-description {
+        margin-left: 30px;
+        align-items: center;
+    }
+
+    .text-box {
+        margin-left: 30px;
     }
 }
+
 @media (max-width: 375px) {
 
     .service-nav {
         align-items: center;
         margin-bottom: 10px;
     }
-    .header{
-       
-      display: none;
-    }
-    div.purple-nav{
+
+    .header {
+
         display: none;
     }
-    .button{
+
+    div.purple-nav {
+        display: none;
+    }
+
+    .button {
         margin-top: 10px;
     }
+
+    .feature-box,
+    .service,
+    .feature-description {
+        margin-left: 20px;
+        align-items: center;
+    }
+
+    .text-box {
+        margin-left: 30px;
+    }
 }
+
 @media (max-width: 425px) {
 
     .service-nav {
         align-items: center;
         margin-bottom: 10px;
     }
-    .header{
-       display: none;
-        
+
+    .header {
+        display: none;
+
     }
-    div.purple-nav{
-       display: none;
+
+    div.purple-nav {
+        display: none;
     }
-    .button{
+
+    .button {
         margin-top: 10px;
+    }
+
+    .feature-box,
+    .service,
+    .feature-description {
+        margin-left: 1px;
+        align-items: center;
+    }
+
+    .text-box {
+        margin-left: 30px;
     }
 }
